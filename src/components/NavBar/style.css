@@ -1,0 +1,43 @@
+@media (min-width: 768px) {
+  .navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 3rem;
+    border-bottom: 1px solid silver;
+  }
+  .navbar h2 {
+    color: orange;
+  }
+  .navbar ul {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+  }
+  .navbar ul li:hover {
+    text-decoration: underline;
+  }
+}
+
+@media (max-width: 769px) {
+  .navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    border-bottom: 1px solid silver;
+  }
+  .navbar h2 {
+    color: orange;
+  }
+  .navbar ul {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+  }
+  .navbar ul li:hover {
+    text-decoration: underline;
+  }
+}
